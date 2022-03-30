@@ -1,13 +1,10 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-
 import java.util.Scanner;
 
-public class UnionFind {
+public class QuickFind {
 
     private int id[];
 
-    public UnionFind(int n) {
+    public QuickFind(int n) {
         id = new int[n];
         for (int i = 0; i < n; i++) {
             id[i] = i;
@@ -42,13 +39,13 @@ public class UnionFind {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        UnionFind UF = new UnionFind(10);
+        QuickFind QF = new QuickFind(10);
         for (int i = 0; i <= 2; i++) {
             System.out.println("Enter p");
             int p = sc.nextInt();
             System.out.println("Enter q");
             int q = sc.nextInt();
-            UF.union(p, q);
+            QF.union(p, q);
         }
 
         System.out.println("Lets start connect op");
@@ -58,7 +55,7 @@ public class UnionFind {
             System.out.println("Enter q");
             int q = sc.nextInt();
 
-            System.out.println("Connected:" + UF.Connected(p, q));
+            System.out.println("Connected:" + QF.Connected(p, q));
 
         }
 
