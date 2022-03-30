@@ -76,9 +76,19 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.UnionFind">
+  <component name="RunManager" selected="Application.QuickUnion">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="QuickFind" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="QuickFind" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="QuickUnion" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="QuickUnion" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
