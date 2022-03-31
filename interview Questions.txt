@@ -1,0 +1,6 @@
+
+
+
+Weighted Union Find with path compression can be used to solve this problem,
+Approach:
+Lets consider each member in a network as an object, i, e, there could be 'n' objects. Iter over the log file containing timestamps, for each iteration connnect two members ( objects in out case) with Union function of Union Find, cosidering the weights and path. After every union (every timestamp iter ) make a check whether all the objects  members pointing to a same parent. If they are pointing to the same parent at that particular timestamp in log , it means that all objects belong to the same component  which is nothing but all more mutually connected to be friend of friend.
